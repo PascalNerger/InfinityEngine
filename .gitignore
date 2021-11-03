@@ -1,0 +1,29 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Git and other files
+!.git*
+!.editorconfig
+
+# Premake files
+!Engine/Build/Premake/**/premake5*
+!**/premake5.lua
+
+# C/C++ source files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+!*.inl
+
+# Shader source files
+!*.glsl
+
+# Script files
+!*.bat
+!*.sh
+!*.command
+
+# Text files
+!*.md

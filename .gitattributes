@@ -1,0 +1,4 @@
+
+# Make sure Windows batch files preserve CR/LF line endings, otherwise they may be unable to execute.
+*.bat eol=crlf
+
