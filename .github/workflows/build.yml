@@ -70,7 +70,7 @@ jobs:
         with:
           name: Linux Build
           path: |
-            Engine/Binaries/Production/!(*.*)
+            Engine/Binaries/Production/InfinityEngine-Sandbox
             Engine/Binaries/Production/*.so
       
   mac:
@@ -102,5 +102,5 @@ jobs:
         with:
           name: Mac Build
           path: |
-            Engine/Binaries/Production/!(*.*)
+            Engine/Binaries/Production/InfinityEngine-Sandbox
             Engine/Binaries/Production/*.dylib
