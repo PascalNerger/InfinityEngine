@@ -72,7 +72,6 @@ group "Engine/Runtime"
 	include (RuntimeSourceDirectory .. "RHI")
 	include (RuntimeSourceDirectory .. "RHIVulkan")
 
-	include (RuntimeSourceDirectory .. "RenderCore")
 	include (RuntimeSourceDirectory .. "Renderer")
 
 group "Engine/ThirdParty"
