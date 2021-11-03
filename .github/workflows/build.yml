@@ -88,13 +88,13 @@ jobs:
         run: sh GenerateProjectFiles.command
       
       - name: Debug Build
-        run: xcodebuild build -workspace Nexus.xcworkspace -scheme Sandbox -sdk macosx -configuration Debug
+        run: xcodebuild build -workspace InfinityEngine.xcworkspace -scheme Sandbox -sdk macosx -configuration Debug
       
       - name: Release Build
-        run: xcodebuild build -workspace Nexus.xcworkspace -scheme Sandbox -sdk macosx -configuration Release
+        run: xcodebuild build -workspace InfinityEngine.xcworkspace -scheme Sandbox -sdk macosx -configuration Release
       
       - name: Production Build
-        run: xcodebuild build -workspace Nexus.xcworkspace -scheme Sandbox -sdk macosx -configuration Production
+        run: xcodebuild build -workspace InfinityEngine.xcworkspace -scheme Sandbox -sdk macosx -configuration Production
 
       - name: Upload Artifacts (Production)
         if: success()
