@@ -6,6 +6,9 @@
 !.git*
 !.editorconfig
 
+# GitHub actions
+!.github/workflows/build.yml
+
 # Premake files
 !Engine/Build/Premake/**/premake5*
 !**/premake5.lua
