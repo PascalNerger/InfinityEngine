@@ -5,7 +5,7 @@ project "RHI"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++20"
+    cppdialect "C++latest"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
