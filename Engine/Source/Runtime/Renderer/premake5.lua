@@ -5,7 +5,7 @@ project "Renderer"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++17"
+    cppdialect "C++20"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
@@ -25,7 +25,7 @@ project "Renderer"
 	}
 
 	includedirs {
-		RuntimeSourceDirectory .. "**/Public",
+		RuntimeSourceDirectory .. "Renderer/Public/**",
 	}
 
     defines {

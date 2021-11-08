@@ -62,6 +62,7 @@ workspace "InfinityEngine"
 
 		runtime "Release"
 		optimize "On"
+		
 		inlining "Auto"
 
 group "Engine/Runtime"

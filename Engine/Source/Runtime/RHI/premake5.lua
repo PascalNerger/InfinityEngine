@@ -5,7 +5,7 @@ project "RHI"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++17"
+    cppdialect "C++20"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
@@ -25,7 +25,7 @@ project "RHI"
 	}
 
 	includedirs {
-		RuntimeSourceDirectory .. "**/Public",
+		RuntimeSourceDirectory .. "RHI/Public/**",
 	}
 
     defines {

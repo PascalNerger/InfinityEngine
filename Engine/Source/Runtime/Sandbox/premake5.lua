@@ -5,7 +5,7 @@ project "Sandbox"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++17"
+    cppdialect "C++20"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
@@ -25,7 +25,8 @@ project "Sandbox"
 	}
 
 	includedirs {
-		RuntimeSourceDirectory .. "**/Public",
+		RuntimeSourceDirectory .. "Sandbox/Public/**",
+		RuntimeSourceDirectory .. "Core/Public/**"
 	}
 
     links {
