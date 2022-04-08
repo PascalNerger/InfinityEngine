@@ -7,9 +7,6 @@ project "RHI"
     systemversion "latest"
     cppdialect "C++20"
 
-	filter "system:linux"
-		cppdialect "C++2a"
-
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
 
@@ -34,3 +31,6 @@ project "RHI"
     defines {
         "INFINITY_BUILD_DYNAMIC_LIB"
     }
+
+	filter "system:linux"
+		cppdialect "C++2a"

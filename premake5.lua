@@ -56,13 +56,13 @@ workspace "InfinityEngine"
 
 		runtime "Release"
 		optimize "On"
-	
+
 	filter "configurations:Production"
 		defines "INFINITY_BUILD_PRODUCTION"
 
 		runtime "Release"
 		optimize "On"
-		
+
 		inlining "Auto"
 
 group "Engine/Runtime"
