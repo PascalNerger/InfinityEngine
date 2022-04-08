@@ -26,9 +26,11 @@ project "Sandbox"
 
 	includedirs {
 		RuntimeSourceDirectory .. "Sandbox/Public/**",
-		RuntimeSourceDirectory .. "Core/Public/**"
+
+		RuntimeSourceDirectory .. "Core/Public/**",
+		RuntimeSourceDirectory .. "Core/Public/",
 	}
 
     links {
-		
+		"Core"
     }

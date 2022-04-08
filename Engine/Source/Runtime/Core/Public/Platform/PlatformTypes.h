@@ -47,6 +47,9 @@ namespace InfinityEngine
 	using PlatformSizeType = FPlatformTypes::PlatformSizeType;
 
 
+	using VariadicArguments = va_list;
+
+
 	namespace Internal
 	{
 

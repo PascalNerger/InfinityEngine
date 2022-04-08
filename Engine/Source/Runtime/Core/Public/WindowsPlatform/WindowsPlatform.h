@@ -13,6 +13,9 @@
 #define INFINITY_PLATFORM_TEXT_ENCODING_INTERNAL INFINITY_PLATFORM_TEXT_ENCODING_ANSI_CODE
 
 
+#include "WindowsSystemIncludes.h"
+
+
 #include "WindowsPlatformTypes.h"
 
 

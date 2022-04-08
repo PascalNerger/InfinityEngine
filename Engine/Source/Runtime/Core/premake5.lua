@@ -26,6 +26,7 @@ project "Core"
 
 	includedirs {
 		RuntimeSourceDirectory .. "Core/Public/**",
+		RuntimeSourceDirectory .. "Core/Public/"
 	}
 
     defines {
