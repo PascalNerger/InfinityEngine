@@ -73,7 +73,7 @@ namespace InfinityEngine
 		 * @param Format The message format string.
 		 * @param ... The arguments used by the formatted string.
 		 */
-		FORCE_INLINE void Logf(const LogLevel Level, const InternalChar* Format, ...) const
+		void Logf(const LogLevel Level, const InternalChar* Format, ...) const
 		{
 			CHECK(Level != LogLevel::None);
 			CHECK(Level < LogLevel::Invalid);
