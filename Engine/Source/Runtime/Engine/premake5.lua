@@ -1,11 +1,11 @@
 project "Engine"
 	kind "SharedLib"
-    
+
 	language "C++"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++latest"
+    cppdialect "C++20"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")

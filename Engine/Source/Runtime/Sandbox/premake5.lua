@@ -1,11 +1,11 @@
 project "Sandbox"
 	kind "ConsoleApp"
-    
+
 	language "C++"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++latest"
+    cppdialect "C++20"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
