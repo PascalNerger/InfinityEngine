@@ -7,6 +7,9 @@ project "Renderer"
     systemversion "latest"
     cppdialect "C++20"
 
+	filter "system:linux"
+		cppdialect "C++2a"
+
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
 
