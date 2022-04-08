@@ -21,7 +21,7 @@
 
 
 #define INFINITY_COMPILER_DEBUG_BREAK() raise(SIGTRAP)
-#define INFINITY_COMPILER_ASSUME(X) __builtin_assume(X)
+#define INFINITY_COMPILER_ASSUME(X)
 
 
 #define INFINITY_COMPILER_DLL_EXPORT __attribute__((visibility("default")))
