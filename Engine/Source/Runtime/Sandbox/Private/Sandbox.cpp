@@ -10,6 +10,8 @@ namespace InfinityEngine
 		const TextChar* Text = TEXT("Sandbox");
 		const InternalChar* InternalText = INTERNAL_TEXT("Sandbox");
 
+		std::cout << FPlatformMath::Abs(-2.0f) << std::endl;
+
 		return 0;
 	}
 

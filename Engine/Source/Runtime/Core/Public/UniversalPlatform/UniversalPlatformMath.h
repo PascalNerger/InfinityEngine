@@ -28,37 +28,25 @@ namespace InfinityEngine
 		}
 
 		template<typename T>
-		static constexpr FORCE_INLINE T Abs(const T A)
+		static constexpr T Abs(const T A)
 		{
 			return (A >= static_cast<T>(0)) ? A : -A;
 		}
 
-		template<>
-		FORCE_INLINE float Abs(const float A)
-		{
-			return std::fabsf(A);
-		}
-
-		template<>
-		FORCE_INLINE double Abs(const double A)
-		{
-			return std::fabs(A);
-		}
-
 		template<typename T>
-		static constexpr FORCE_INLINE T Sign(const T A)
+		static constexpr T Sign(const T A)
 		{
 			return (A > static_cast<T>(0)) ? static_cast<T>(1) : ((A < static_cast<T>(0)) ? static_cast<T>(-1) : static_cast<T>(0));
 		}
 
 		template<typename T>
-		static constexpr FORCE_INLINE T Min(const T A, const T B)
+		static constexpr T Min(const T A, const T B)
 		{
 			return (A <= B) ? A : B;
 		}
 
 		template<typename T>
-		static constexpr FORCE_INLINE T Max(const T A, const T B)
+		static constexpr T Max(const T A, const T B)
 		{
 			return (A >= B) ? A : B;
 		}
