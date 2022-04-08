@@ -53,112 +53,112 @@ namespace InfinityEngine
 
 		static FORCE_INLINE float Sin(const float Value)
 		{
-			return std::sinf(Value);
+			return sinf(Value);
 		}
 
 		static FORCE_INLINE double Sin(const double Value)
 		{
-			return std::sin(Value);
+			return sin(Value);
 		}
 
 		static FORCE_INLINE float Asin(const float Value)
 		{
-			return std::asinf((Value < -1.0f) ? -1.0f : ((Value < 1.0f) ? Value : 1.0f));
+			return asinf((Value < -1.0f) ? -1.0f : ((Value < 1.0f) ? Value : 1.0f));
 		}
 
 		static FORCE_INLINE double Asin(const double Value)
 		{
-			return std::asin((Value < -1.0) ? -1.0 : ((Value < 1.0) ? Value : 1.0));
+			return asin((Value < -1.0) ? -1.0 : ((Value < 1.0) ? Value : 1.0));
 		}
 
 		static FORCE_INLINE float Sinh(const float Value)
 		{
-			return std::sinhf(Value);
+			return sinhf(Value);
 		}
 
 		static FORCE_INLINE double Sinh(const double Value)
 		{
-			return std::sinh(Value);
+			return sinh(Value);
 		}
 
 		static FORCE_INLINE float Cos(const float Value)
 		{
-			return std::cosf(Value);
+			return cosf(Value);
 		}
 
 		static FORCE_INLINE double Cos(const double Value)
 		{
-			return std::cos(Value);
+			return cos(Value);
 		}
 
 		static FORCE_INLINE float Acos(const float Value)
 		{
-			return std::acosf((Value < -1.0f) ? -1.0f : ((Value < 1.0f) ? Value : 1.0f));
+			return acosf((Value < -1.0f) ? -1.0f : ((Value < 1.0f) ? Value : 1.0f));
 		}
 
 		static FORCE_INLINE double Acos(const double Value)
 		{
-			return std::acos((Value < -1.0) ? -1.0 : ((Value < 1.0) ? Value : 1.0));
+			return acos((Value < -1.0) ? -1.0 : ((Value < 1.0) ? Value : 1.0));
 		}
 
 		static FORCE_INLINE float Tan(const float Value)
 		{
-			return std::tanf(Value);
+			return tanf(Value);
 		}
 
 		static FORCE_INLINE double Tan(const double Value)
 		{
-			return std::tan(Value);
+			return tan(Value);
 		}
 
 		static FORCE_INLINE float Atan(const float Value)
 		{
-			return std::atanf(Value);
+			return atanf(Value);
 		}
 
 		static FORCE_INLINE double Atan(const double Value)
 		{
-			return std::atan(Value);
+			return atan(Value);
 		}
 
 		static FORCE_INLINE float Atan2(const float Y, const float X)
 		{
-			return std::atan2f(Y, X);
+			return atan2f(Y, X);
 		}
 
 		static FORCE_INLINE double Atan2(const double Y, const double X)
 		{
-			return std::atan2(Y, X);
+			return atan2(Y, X);
 		}
 
 		static FORCE_INLINE float Sqrt(const float Value)
 		{
-			return std::sqrtf(Value);
+			return sqrtf(Value);
 		}
 
 		static FORCE_INLINE double Sqrt(const double Value)
 		{
-			return std::sqrt(Value);
+			return sqrt(Value);
 		}
 
 		static FORCE_INLINE float Pow(const float A, const float B)
 		{
-			return std::powf(A, B);
+			return powf(A, B);
 		}
 
 		static FORCE_INLINE double Pow(const double A, const double B)
 		{
-			return std::pow(A, B);
+			return pow(A, B);
 		}
 
 		static FORCE_INLINE float InvSqrt(const float A)
 		{
-			return 1.0f / std::sqrtf(A);
+			return 1.0f / sqrtf(A);
 		}
 
 		static FORCE_INLINE double InvSqrt(const double A)
 		{
-			return 1.0 / std::sqrt(A);
+			return 1.0 / sqrt(A);
 		}
 
 	};
