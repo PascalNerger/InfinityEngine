@@ -20,7 +20,7 @@
 #endif
 
 
-#define INFINITY_COMPILER_DEBUG_BREAK() raise(SIGTRAP)
+#define INFINITY_COMPILER_DEBUG_BREAK() __builtin_trap()
 #define INFINITY_COMPILER_ASSUME(X)
 
 
