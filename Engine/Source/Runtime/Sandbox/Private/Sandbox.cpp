@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include <string>
 #include <chrono>
 
@@ -47,6 +48,8 @@ namespace InfinityEngine
 
 		delete LogDevice;
 		delete GLog;
+
+		std::cout << FPlatformMath::Abs(-2.0f) << std::endl;
 
 		return 0;
 	}
