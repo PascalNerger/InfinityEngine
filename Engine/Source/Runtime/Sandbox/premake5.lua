@@ -34,6 +34,3 @@ project "Sandbox"
     links {
 		"Core"
     }
-
-	filter "system:linux"
-		cppdialect "C++2a"

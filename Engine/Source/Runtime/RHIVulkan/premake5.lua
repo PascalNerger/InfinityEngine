@@ -5,7 +5,7 @@ project "RHIVulkan"
 	staticruntime "off"
 
     systemversion "latest"
-    cppdialect "C++20"
+	cppdialect "C++20"
 
 	targetname ("%{wks.name}-%{prj.name}")
 	targetprefix ("")
@@ -31,6 +31,3 @@ project "RHIVulkan"
     defines {
         "INFINITY_BUILD_DYNAMIC_LIB"
     }
-
-	filter "system:linux"
-		cppdialect "C++2a"
